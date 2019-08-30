@@ -3,17 +3,23 @@ package ThreadClose;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class ThreadLocalTest {
 
-    private static String DB_URL = "http://119.23.240.115:3306";
-
+    private static String DB_URL = "<你自己的数据库URL>";
+    private static String USERNAME = "<数据库用户名>";
+    private static String PASSWORD = "<数据库密码>";
+    private static Properties dataMap = new Properties();
     // 使用ThreadLocal维持线程封闭性
-    private static ThreadLocal<Connection> connectionHolder = new ThreadLocal<Connection>() {
-        // 创建匿名类并重写其中的initialValue方法
+    private static ThreadLocal<Connection> connectHolder = new ThreadLocal<>() {
+        // 重写initialValue，设置初始值
+        @Override
         public Connection initialValue() {
             try {
-                return DriverManager.getConnection(DB_URL);
+                dataMap.setProperty("user", USERNAME);
+                dataMap.setProperty("password", PASSWORD);
+                return DriverManager.getConnection(DB_URL, dataMap);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -21,7 +27,9 @@ public class ThreadLocalTest {
         }
     };
 
-    public static Connection getCollection() {
-        return connectionHolder.get();
+    public static Connection getConnection() {
+        // get方法到这个线程的Value
+        Connection connection = connectHolder.get();
+        return connection;
     }
 }
