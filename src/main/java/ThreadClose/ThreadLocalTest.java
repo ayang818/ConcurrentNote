@@ -3,6 +3,8 @@ package ThreadClose;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.Properties;
 
 public class ThreadLocalTest {
@@ -17,6 +19,7 @@ public class ThreadLocalTest {
         @Override
         public Connection initialValue() {
             try {
+                Collections.synchronizedMap(new HashMap<>());
                 dataMap.setProperty("user", USERNAME);
                 dataMap.setProperty("password", PASSWORD);
                 return DriverManager.getConnection(DB_URL, dataMap);
@@ -26,6 +29,7 @@ public class ThreadLocalTest {
             return null;
         }
     };
+
 
     public static Connection getConnection() {
         // get方法到这个线程的Value
