@@ -1,7 +1,12 @@
 package ConcurrentContainer;
 
+import com.alibaba.fastjson.JSON;
+import okhttp3.*;
+
+import javax.print.attribute.standard.Media;
+import java.io.IOException;
+import java.net.http.HttpResponse;
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * @ClassName LinkedListTest
@@ -10,18 +15,38 @@ import java.util.Queue;
  * @Date 2019/9/4 16:25
  **/
 public class LinkedListTest {
-    private static final Queue queue = new LinkedList();
-
+    private static LinkedList<Integer> linkedList = new LinkedList<>();
 
     public static void main(String[] args) {
-        queue.offer(1);
-        queue.offer(2);
-        System.out.println(queue.toString());
-        Object poll = queue.poll();
-        System.out.println(poll);
-        System.out.println(queue);
-        Object peek = queue.peek();
-        System.out.println(poll);
-        System.out.println(queue);
+        linkedList.offer(1);
+        System.out.println(linkedList.toString());
+        linkedList.offer(2);
+        System.out.println(linkedList.toString());
+        OkHttpClient okHttpClient = new OkHttpClient();
+
+        Request request = new Request.Builder()
+                .url("https://www.baidu.com")
+                .build();
+
+        try (Response response = okHttpClient.newCall(request).execute()) {
+            System.out.println(response.body().string());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        MediaType JSON = MediaType.get("application/json; charset=utf-8");
+
+        RequestBody body = RequestBody.create(JSON, "{'User-Agent': 'Mozilla/5.0'}");
+
+        Request postrequest = new Request.Builder()
+                .url("https://www.baidu.com")
+                .post(body)
+                .build();
+
+        try(Response response = okHttpClient.newCall(postrequest).execute()) {
+            System.out.println(response.body().string());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
