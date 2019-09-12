@@ -9,9 +9,9 @@ import java.util.Properties;
 
 public class ThreadLocalTest {
 
-    private static String DB_URL = "<你自己的数据库URL>";
-    private static String USERNAME = "<数据库用户名>";
-    private static String PASSWORD = "<数据库密码>";
+    private static String DB_URL = "jdbc:mysql://119.23.240.115:3306";
+    private static String USERNAME = "root";
+    private static String PASSWORD = "yfc1004210191";
     private static Properties dataMap = new Properties();
     // 使用ThreadLocal维持线程封闭性
     private static ThreadLocal<Connection> connectHolder = new ThreadLocal<>() {
@@ -19,7 +19,6 @@ public class ThreadLocalTest {
         @Override
         public Connection initialValue() {
             try {
-                Collections.synchronizedMap(new HashMap<>());
                 dataMap.setProperty("user", USERNAME);
                 dataMap.setProperty("password", PASSWORD);
                 return DriverManager.getConnection(DB_URL, dataMap);

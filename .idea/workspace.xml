@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114db7a8-cf46-4337-996f-c6702f78102c" name="Default Changelist" comment="工厂模式(普通工厂,多个工厂,静态工厂,抽象工厂)的Demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/ManFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/Women.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/WomenFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/FactoryPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/Women.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netutil/OkhttpMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netutil/OkhttpclientSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/FactoryPattern.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/Human.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/Man.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/Women.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/netutil/OkhttpMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/netutil/OkhttpclientSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadClose/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadClose/JDBCConnect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConcurrentContainer/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConcurrentContainer/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConcurrentContainer/FileCrawler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConcurrentContainer/LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConcurrentContainer/LinkedListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadClose/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadClose/ThreadLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/FactoryPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/FactoryPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadClose/ThreadLocalTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadClose/ThreadLocalTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadClose/ThreadLocalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadClose/ThreadLocalTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,92 +52,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/Human.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" lean-forward="true" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/Man.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" lean-forward="true" selection-end-line="19" />
-              <folding>
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/Women.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/FactoryPattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/Provider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/ManFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/WomenFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" selection-start-line="8" selection-end-line="14" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -168,8 +67,6 @@
     <findStrings>
       <find>initial</find>
       <find>Connection</find>
-      <find>get(</find>
-      <find>initialValue</find>
       <find>password</find>
       <find>getConnection</find>
       <find>compareandswap</find>
@@ -187,6 +84,16 @@
       <find>linkedlist</find>
       <find>Iterator</find>
       <find>add</find>
+      <find>initialValue</find>
+      <find>countdown</find>
+      <find>threadlocalmap</find>
+      <find>get</find>
+      <find>get(</find>
+      <find>thread</find>
+      <find>get()</find>
+      <find>entry</find>
+      <find>exit</find>
+      <find>threadlocal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,12 +110,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Atomic/AtomicInc.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadClose/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadClose/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadClose/ThreadLocalVerify.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/dbc25331-50ef-4ab8-aa20-7338cec32c14/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/UnChangedObject/UnChangedObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadClose/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BasicSetupModule/VectorSimpleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test/IntegerEquals.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test/StaticTest.java" />
@@ -243,6 +148,11 @@
         <option value="$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/WomenFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/FactoryPattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/Provider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadClose/ThreadLocalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadClose/JDBCConnect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadClose/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadClose/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadClose/ThreadUsage.java" />
       </list>
     </option>
   </component>
@@ -299,16 +209,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.ayang818.concurrentlearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.ayang818.concurrentlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractFactoryPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadClose" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,7 +238,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -356,13 +257,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FactoryPattern">
-    <configuration name="ConcurrentHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConcurrentContainer.ConcurrentHashMapTest" />
+  <component name="RunManager" selected="Application.CountDownLatchDemo">
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadClose.CountDownLatchDemo" />
       <module name="com.ayang818.concurrentlearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ConcurrentContainer.LinkedListTest" />
+          <option name="PATTERN" value="ThreadClose.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,19 +277,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DesignPattern.FactoryPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.ForEach" />
-      <module name="com.ayang818.concurrentlearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,13 +323,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadLocalVerify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadClose.ThreadLocalVerify" />
+      <module name="com.ayang818.concurrentlearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThreadClose.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.ThreadLocalVerify" />
         <item itemvalue="Application.FactoryPattern" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.LinkedListTest" />
-        <item itemvalue="Application.ConcurrentHashMapTest" />
-        <item itemvalue="Application.ForEach" />
       </list>
     </recent_temporary>
   </component>
@@ -469,18 +370,18 @@
       <workItem from="1567517578767" duration="2417000" />
       <workItem from="1567577380821" duration="6942000" />
       <workItem from="1568112078395" duration="4035000" />
-      <workItem from="1568196883398" duration="5838000" />
+      <workItem from="1568196883398" duration="7094000" />
+      <workItem from="1568254117590" duration="5338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78850000" />
+    <option name="totallyTimeSpent" value="85444000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1870" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1870" height="1096" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1922652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19447514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -551,132 +452,18 @@
     <MESSAGE value="工厂模式(普通工厂,多个工厂,静态工厂,抽象工厂)的Demo" />
     <option name="LAST_COMMIT_MESSAGE" value="工厂模式(普通工厂,多个工厂,静态工厂,抽象工厂)的Demo" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/java/lib/src.zip!/java.sql/java/sql/Connection.java</url>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/BuilderIt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="109" selection-start-line="10" selection-start-column="109" selection-end-line="10" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/BuilderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BasicSetupModule/SafeContainerHungry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" selection-start-line="10" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/File/FileReview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-          <folding>
-            <element signature="e#2909#2910#0" expanded="true" />
-            <element signature="e#2974#2975#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test/ForEach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BasicSetupModule/SafeContainerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BasicSetupModule/SafeContainerStaticLoad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BasicSetupModule/SafeContainEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/lib/src.zip!/java.base/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="60" column="59" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="72" column="55" lean-forward="true" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/AbstractSequentialList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/lib/src.zip!/java.base/java/lang/reflect/Modifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/lib/src.zip!/java.base/java/lang/reflect/AccessibleObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -811,17 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadClose/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="e#522#1030#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2-sources.jar!/okhttp3/MediaType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2930">
@@ -853,13 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="42" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -922,14 +691,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/Human.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-end-line="6" />
+          <caret line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/Man.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" lean-forward="true" selection-end-line="19" />
+        <state relative-caret-position="405">
+          <caret line="19" selection-end-line="19" />
           <folding>
             <element signature="e#199#200#0" expanded="true" />
             <element signature="e#244#245#0" expanded="true" />
@@ -941,14 +710,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/FactoryPattern/Women.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="270">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
             <element signature="e#335#336#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/lib/src.zip!/java.sql/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="2554" column="33" selection-start-line="2554" selection-start-column="33" selection-end-line="2554" selection-end-column="33" />
+          <folding>
+            <element signature="e#101881#101882#0" expanded="true" />
+            <element signature="e#101928#101929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5333">
+          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/lib/src.zip!/java.sql/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="134" column="13" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/WomenFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/ManFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -964,27 +810,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/Provider.java">
+    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/ManFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern/AbstractFactoryPattern/WomenFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" selection-start-line="8" selection-end-line="14" />
+        <state relative-caret-position="194">
+          <caret line="1203" column="32" selection-start-line="1203" selection-start-column="32" selection-end-line="1203" selection-end-column="32" />
           <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#46959#46960#0" expanded="true" />
+            <element signature="e#47016#47017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/lib/src.zip!/java.base/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="291" column="24" lean-forward="true" selection-start-line="291" selection-start-column="24" selection-end-line="291" selection-end-column="24" />
+          <folding>
+            <element signature="e#5228#5229#0" expanded="true" />
+            <element signature="e#5267#5268#0" expanded="true" />
+            <element signature="e#9900#9901#0" expanded="true" />
+            <element signature="e#9937#9938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadClose/ThreadLocalVerify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadClose/ThreadUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadClose/JDBCConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#590#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/lib/src.zip!/java.base/java/lang/ref/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding>
+            <element signature="e#12458#12459#0" expanded="true" />
+            <element signature="e#12494#12495#0" expanded="true" />
+            <element signature="e#14491#14492#0" expanded="true" />
+            <element signature="e#14527#14528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/lib/src.zip!/java.base/java/lang/ref/WeakReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+          <folding>
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="335" column="13" lean-forward="true" selection-start-line="335" selection-start-column="13" selection-end-line="335" selection-end-column="13" />
+          <folding>
+            <element signature="e#4359#4360#0" expanded="true" />
+            <element signature="e#4386#4387#0" expanded="true" />
+            <element signature="e#8486#8487#0" expanded="true" />
+            <element signature="e#8523#8524#0" expanded="true" />
+            <element signature="e#8789#8790#0" expanded="true" />
+            <element signature="e#8858#8859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadClose/ThreadLocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#544#990#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="186" column="26" lean-forward="true" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
+          <folding>
+            <element signature="e#16393#16394#0" expanded="true" />
+            <element signature="e#16457#16458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadClose/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#215#670#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
           </folding>
         </state>
       </provider>
