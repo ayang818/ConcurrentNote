@@ -1,4 +1,4 @@
-package ThreadClose;
+package CloseLock;
 
 import javax.xml.crypto.Data;
 import java.util.ArrayList;
