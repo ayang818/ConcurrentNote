@@ -14,7 +14,8 @@ public class FutureTaskPreloader {
     private final FutureTask<Object> future = new FutureTask<>(new Callable<Object>() {
         @Override
         public Object call() throws Exception {
-            return loadProductList();
+//            return loadProductList();
+            return null;
         }
     });
     private final Thread thread = new Thread(future);
@@ -28,11 +29,12 @@ public class FutureTaskPreloader {
             return future.get();
         } catch (ExecutionException e) {
             Throwable cause = e.getCause();
-            if (cause instanceof DataLoaderException) {
-                throw (DataLoaderException) cause;
-            } else {
-                throw laundeThrowable(cause);
-            }
+//            if (cause instanceof DataLoaderException) {
+//                throw (DataLoaderException) cause;
+//            } else {
+//                throw laundeThrowable(cause);
+//            }
+            return null;
         }
     }
 
