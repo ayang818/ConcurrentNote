@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114db7a8-cf46-4337-996f-c6702f78102c" name="Default Changelist" comment="工厂模式(普通工厂,多个工厂,静态工厂,抽象工厂)的Demo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TaskExecution/SingleThreadWebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lock/ObjectLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lock/ObjectLock.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/java/jdk-12.0.2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,7 +90,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -112,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObjectLock">
+  <component name="RunManager" selected="Application.SingleThreadWebServer">
     <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadClose.CountDownLatchDemo" />
       <module name="1.0" />
@@ -165,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.ObserverPattern.Test" />
-      <module name="com.ayang818.concurrentlearn" />
+    <configuration name="SingleThreadWebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TaskExecution.SingleThreadWebServer" />
+      <module name="1.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.ObserverPattern.*" />
+          <option name="PATTERN" value="TaskExecution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleThreadWebServer" />
         <item itemvalue="Application.ObjectLock" />
         <item itemvalue="Application.CountDownLatchGate" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.CountDownLatchDemo" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +224,7 @@
       <workItem from="1568549181697" duration="2388000" />
       <workItem from="1569637495881" duration="13772000" />
       <workItem from="1569926792647" duration="11208000" />
+      <workItem from="1570025902736" duration="1535000" />
     </task>
     <servers />
   </component>
