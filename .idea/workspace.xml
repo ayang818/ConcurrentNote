@@ -2,71 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114db7a8-cf46-4337-996f-c6702f78102c" name="Default Changelist" comment="工厂模式(普通工厂,多个工厂,静态工厂,抽象工厂)的Demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lock/ObjectLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbc25331-50ef-4ab8-aa20-7338cec32c14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dbc25331-50ef-4ab8-aa20-7338cec32c14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Atomic/AtomicInc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Atomic/AtomicInc$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Atomic/AtomicInc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Atomic/AtomicInc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Atomic/LockHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Atomic/LockHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasicSetupModule/SafeContainEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasicSetupModule/SafeContainEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasicSetupModule/SafeContainerHungry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasicSetupModule/SafeContainerHungry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasicSetupModule/SafeContainerStaticLoad$SingletonHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasicSetupModule/SafeContainerStaticLoad$SingletonHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasicSetupModule/SafeContainerStaticLoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasicSetupModule/SafeContainerStaticLoad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasicSetupModule/SafeContainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasicSetupModule/SafeContainerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasicSetupModule/VectorSimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasicSetupModule/VectorSimpleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Builder/BuilderIt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Builder/BuilderIt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Builder/BuilderTest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Builder/BuilderTest$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Builder/BuilderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Builder/BuilderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConcurrentContainer/ConcurrentHashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConcurrentContainer/ConcurrentHashMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConcurrentContainer/CopyOrWriteArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConcurrentContainer/CopyOrWriteArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConcurrentContainer/LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConcurrentContainer/LinkedListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/Man.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/ManFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/ManFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/Provider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/Women.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/Women.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/WomenFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AbstractFactoryPattern/WomenFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AdapterPattern/AdapterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AdapterPattern/AdapterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AdapterPattern/ChargeBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AdapterPattern/ChargeBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AdapterPattern/ThreePins.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AdapterPattern/ThreePins.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AdapterPattern/TwoPins.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AdapterPattern/TwoPins.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/AdapterPattern/TwoToThreeAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/AdapterPattern/TwoToThreeAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/AmericanGirl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/AmericanGirl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/ChineseGirl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/ChineseGirl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/Girl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/Girl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/GirlDecoration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/GirlDecoration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/GoldenHair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/GoldenHair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/Tall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/Tall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/DecoratorPattern/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/FactoryPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/FactoryPattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/Man.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/Women.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/FactoryPattern/Women.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/ObserverPattern/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/ObserverPattern/Observer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/ObserverPattern/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/ObserverPattern/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/ObserverPattern/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/ObserverPattern/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/ObserverPattern/VideoFans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/ObserverPattern/VideoFans.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/ObserverPattern/VideoSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/ObserverPattern/VideoSite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/File/FileReview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/File/FileReview.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lock/LockHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lock/LockHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/ForEach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/ForEach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/IntegerEquals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/IntegerEquals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/StaticTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/StaticTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThreadClose/CountDownLatchDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadClose/CountDownLatchDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThreadClose/CountDownLatchGate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThreadClose/JDBCConnect$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadClose/JDBCConnect$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThreadClose/JDBCConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadClose/JDBCConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThreadClose/ThreadLocalTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadClose/ThreadLocalTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThreadClose/ThreadLocalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadClose/ThreadLocalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThreadClose/ThreadLocalVerify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadClose/ThreadLocalVerify.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UnChangedObject/UnChangedObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UnChangedObject/UnChangedObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netutil/OkhttpMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netutil/OkhttpMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netutil/OkhttpclientSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netutil/OkhttpclientSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lock/ObjectLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lock/ObjectLock.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -285,7 +222,7 @@
       <workItem from="1568532243730" duration="3646000" />
       <workItem from="1568549181697" duration="2388000" />
       <workItem from="1569637495881" duration="13772000" />
-      <workItem from="1569926792647" duration="9249000" />
+      <workItem from="1569926792647" duration="11208000" />
     </task>
     <servers />
   </component>

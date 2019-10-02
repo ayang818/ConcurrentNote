@@ -1,14 +1,15 @@
 package Lock;
 
 public class ObjectLock {
-    static Runnable releaseO = () -> {
+    private static Runnable releaseO = () -> {
         System.out.print("O");
     };
-    static Runnable releaseH = () -> {
+    private static Runnable releaseH = () -> {
         System.out.print("H");
     };
-    static H2O h2O = new H2O();
-    static String inputStr = "OOHHHHOHH";
+    private static H2O h2O = new H2O();
+    private static String inputStr = "OOHHHHOHH";
+
     public static void main(String[] args) {
         for (int i = 0; i < inputStr.length(); i++) {
             if ("O".equals(Character.toString(inputStr.charAt(i)))) {
@@ -39,11 +40,11 @@ class H2O {
 
     private int HCounter = 0;
 
-    public H2O() {
+    H2O() {
 
     }
 
-    public void hydrogen(Runnable releaseHydrogen) throws InterruptedException {
+    void hydrogen(Runnable releaseHydrogen) throws InterruptedException {
         synchronized(LOCK)
         {
             while(HCounter >= 2)
@@ -58,7 +59,7 @@ class H2O {
 
     }
 
-    public void oxygen(Runnable releaseOxygen) throws InterruptedException {
+    void oxygen(Runnable releaseOxygen) throws InterruptedException {
         synchronized(LOCK)
         {
             while(HCounter < 2)
