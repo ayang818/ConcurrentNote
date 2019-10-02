@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114db7a8-cf46-4337-996f-c6702f78102c" name="Default Changelist" comment="工厂模式(普通工厂,多个工厂,静态工厂,抽象工厂)的Demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TaskExecution/SingleThreadWebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TaskExecution/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TaskExecution/SingleWebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TaskExecution/SingleThreadWebServer.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,20 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleThreadWebServer">
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadClose.CountDownLatchDemo" />
-      <module name="1.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CloseLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SingleWebServer">
     <configuration name="CountDownLatchGate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CloseLock.CountDownLatchGate" />
       <module name="1.0" />
@@ -179,13 +168,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleWebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TaskExecution.SingleWebServer" />
+      <module name="1.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TaskExecution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleWebServer" />
         <item itemvalue="Application.SingleThreadWebServer" />
         <item itemvalue="Application.ObjectLock" />
         <item itemvalue="Application.CountDownLatchGate" />
         <item itemvalue="Application.LinkedListTest" />
-        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +226,7 @@
       <workItem from="1568549181697" duration="2388000" />
       <workItem from="1569637495881" duration="13772000" />
       <workItem from="1569926792647" duration="11208000" />
-      <workItem from="1570025902736" duration="1535000" />
+      <workItem from="1570025902736" duration="7495000" />
     </task>
     <servers />
   </component>
