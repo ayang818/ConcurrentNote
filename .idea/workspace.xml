@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114db7a8-cf46-4337-996f-c6702f78102c" name="Default Changelist" comment="工厂模式(普通工厂,多个工厂,静态工厂,抽象工厂)的Demo">
-      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lock/LockLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TaskExecution/TrueThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/AbstractCompareWithInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,13 +114,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OptionalDemo">
-    <configuration name="CountDownLatchGate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CloseLock.CountDownLatchGate" />
+  <component name="RunManager" selected="Application.AbstractCompareWithInterface">
+    <configuration name="AbstractCompareWithInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.AbstractCompareWithInterface" />
       <module name="1.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CloseLock.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractCompareWithInterface" />
         <item itemvalue="Application.OptionalDemo" />
         <item itemvalue="Application.SingleWebServer" />
         <item itemvalue="Application.SingleThreadWebServer" />
         <item itemvalue="Application.ObjectLock" />
-        <item itemvalue="Application.CountDownLatchGate" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +227,7 @@
       <workItem from="1569926792647" duration="11208000" />
       <workItem from="1570025902736" duration="7495000" />
       <workItem from="1570112574599" duration="2415000" />
+      <workItem from="1570158943111" duration="5237000" />
     </task>
     <servers />
   </component>
