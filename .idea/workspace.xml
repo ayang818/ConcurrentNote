@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114db7a8-cf46-4337-996f-c6702f78102c" name="Default Changelist" comment="工厂模式(普通工厂,多个工厂,静态工厂,抽象工厂)的Demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lock/LockLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TaskExecution/TrueThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/AbstractCompareWithInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/LoopInference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadPool/ThreadLocalReview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/DuoTai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/DuoTai.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AbstractCompareWithInterface">
+  <component name="RunManager" selected="Application.ThreadLocalReview">
     <configuration name="AbstractCompareWithInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.AbstractCompareWithInterface" />
       <module name="1.0" />
@@ -128,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lock.ObjectLock" />
+    <configuration name="LoopInference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.LoopInference" />
       <module name="1.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lock.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThreadWebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TaskExecution.SingleThreadWebServer" />
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.StaticTest" />
       <module name="1.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TaskExecution.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleWebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TaskExecution.SingleWebServer" />
+    <configuration name="ThreadLocalReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPool.ThreadLocalReview" />
       <module name="1.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TaskExecution.*" />
+          <option name="PATTERN" value="ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalReview" />
+        <item itemvalue="Application.StaticTest" />
+        <item itemvalue="Application.LoopInference" />
         <item itemvalue="Application.AbstractCompareWithInterface" />
         <item itemvalue="Application.OptionalDemo" />
-        <item itemvalue="Application.SingleWebServer" />
-        <item itemvalue="Application.SingleThreadWebServer" />
-        <item itemvalue="Application.ObjectLock" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +228,11 @@
       <workItem from="1570025902736" duration="7495000" />
       <workItem from="1570112574599" duration="2415000" />
       <workItem from="1570158943111" duration="5237000" />
+      <workItem from="1570183735290" duration="3980000" />
+      <workItem from="1570196464735" duration="44000" />
+      <workItem from="1570199550404" duration="51000" />
+      <workItem from="1570199770699" duration="158000" />
+      <workItem from="1570280415529" duration="3601000" />
     </task>
     <servers />
   </component>
