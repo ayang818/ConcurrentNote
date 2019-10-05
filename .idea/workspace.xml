@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114db7a8-cf46-4337-996f-c6702f78102c" name="Default Changelist" comment="工厂模式(普通工厂,多个工厂,静态工厂,抽象工厂)的Demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/LoopInference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadPool/ThreadLocalReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/ThreeEyesBug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadPool/ThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/DuoTai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/DuoTai.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalReview">
+  <component name="RunManager" selected="Application.ThreeEyesBug">
     <configuration name="AbstractCompareWithInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.AbstractCompareWithInterface" />
       <module name="1.0" />
@@ -134,19 +133,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OptionalTest.OptionalDemo" />
-      <module name="1.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OptionalTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +166,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeEyesBug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ThreeEyesBug" />
+      <module name="1.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeEyesBug" />
         <item itemvalue="Application.ThreadLocalReview" />
         <item itemvalue="Application.StaticTest" />
         <item itemvalue="Application.LoopInference" />
         <item itemvalue="Application.AbstractCompareWithInterface" />
-        <item itemvalue="Application.OptionalDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +231,7 @@
       <workItem from="1570196464735" duration="44000" />
       <workItem from="1570199550404" duration="51000" />
       <workItem from="1570199770699" duration="158000" />
-      <workItem from="1570280415529" duration="3601000" />
+      <workItem from="1570280415529" duration="4997000" />
     </task>
     <servers />
   </component>
