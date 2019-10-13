@@ -54,6 +54,19 @@ public class ExecutorRecursion {
         }
     }
 
+    public static void main(String[] args) throws InterruptedException, ExecutionException {
+        Node root = generator();
+        recursion(root);
+        Thread.sleep(1000);
+        List<Future<Integer>> ansList = invokeAll(queue, exec);
+        int ans = 0;
+        for (Future<Integer> future : ansList) {
+            ans += (future.get());
+        }
+        System.out.println(ans);
+        exec.shutdown();
+    }
+
     public static Node generator() {
         Node root = new Node(5, null, null);
         Node left1 = new Node(5, null, null);
@@ -71,21 +84,8 @@ public class ExecutorRecursion {
         return root;
     }
 
-    public static void main(String[] args) throws InterruptedException, ExecutionException {
-        Node root = generator();
-        recursion(root);
-        Thread.sleep(1000);
-        List<Future<Integer>> ansList = invokeAll(queue, exec);
-        int ans = 0;
-        for (Future<Integer> future : ansList) {
-            ans += (future.get());
-        }
-        System.out.println(ans);
-        exec.shutdown();
-    }
-
     public static List invokeAll(Queue queue, ExecutorService exec) throws InterruptedException {
-        List<Future> list = exec.invokeAll(queue);
+        List<Future<Integer>> list = exec.invokeAll(queue);
         return list;
     }
 
@@ -95,7 +95,6 @@ public class ExecutorRecursion {
             recursion(node.getLeft());
             recursion(node.getRight());
         }
-        return;
     }
 
     public static void task(Node node) {
