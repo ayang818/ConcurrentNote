@@ -12,17 +12,14 @@ import java.sql.DriverManager;
 public class JDBCConnect {
     private static String DB_URL = "";
 
-    private static ThreadLocal<Connection> threadLocal = new ThreadLocal<>() {
-        @Override
-        public Connection initialValue() {
-            try {
-                return DriverManager.getConnection(DB_URL);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            return null;
+    private static ThreadLocal<Connection> threadLocal = ThreadLocal.withInitial(() -> {
+        try {
+            return DriverManager.getConnection(DB_URL);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-    };
+        return null;
+    });
 
     public static Connection getConnection() {
         return threadLocal.get();

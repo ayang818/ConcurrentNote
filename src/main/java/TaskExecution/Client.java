@@ -7,6 +7,8 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 /**
  * Client
@@ -25,7 +27,7 @@ public class Client {
         socket.shutdownOutput();
 
         InputStream inputStream = socket.getInputStream();
-        String callBackMessgae = new String(inputStream.readAllBytes(), "UTF-8");
+        String callBackMessgae = new String(null, "UTF-8");
         System.out.println(callBackMessgae);
     }
 }

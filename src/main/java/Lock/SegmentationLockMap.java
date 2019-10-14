@@ -2,6 +2,7 @@ package Lock;
 
 import org.w3c.dom.Node;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -13,14 +14,37 @@ import java.util.concurrent.ConcurrentHashMap;
  **/
 public class SegmentationLockMap {
     static class Node {
-        public Integer value;
-        public Node next;
-        public Integer key;
+        Integer value;
+        Node next;
+        Integer key;
+
+        public Integer getValue() {
+            return value;
+        }
+
+        public void setValue(Integer value) {
+            this.value = value;
+        }
+
+        public Node getNext() {
+            return next;
+        }
+
+        public void setNext(Node next) {
+            this.next = next;
+        }
+
+        public Integer getKey() {
+            return key;
+        }
+
+        public void setKey(Integer key) {
+            this.key = key;
+        }
     }
     private final int LOCK_NUM = 16;
     private final Node[] buckets;
     private final Object[] locks;
-
     public SegmentationLockMap(Integer bucketNum) {
         buckets = new Node[bucketNum];
         locks = new Object[bucketNum];
@@ -30,6 +54,7 @@ public class SegmentationLockMap {
     }
 
     public final Integer hash(Object key) {
+//        以除留余数法做hash演算
         int abs = Math.abs(key.hashCode() % buckets.length);
         System.out.println(abs);
         return abs;
@@ -38,9 +63,9 @@ public class SegmentationLockMap {
     public Object get(Object key) {
         int hash = hash(key);
         synchronized (locks[hash % LOCK_NUM]) {
-            for (Node m = buckets[hash]; m!=null; m = m.next) {
-                if (m.key.equals(key)) {
-                    return m.value;
+            for (Node node = buckets[hash]; node != null; node = node.next) {
+                if (node.key.equals(key)) {
+                    return node.value;
                 }
             }
         }

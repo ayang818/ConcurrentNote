@@ -55,5 +55,14 @@ public class HashCodeTest {
         for (int i = 0; i < 8; i++) {
             System.out.println(nodes[i].hashCode() % nodes.length);
         }
+        System.out.println(9 & 8);
+        System.out.println(9 | 5);
+        System.out.println(9 ^ 5);
+        System.out.println(-3 ^ -2);
+        System.out.println(Integer.toBinaryString(2));
+        System.out.println(-8 >>> 2);
+        System.out.println(-8 >> 2);
+        System.out.println(5 % 4);
+        System.out.println(5 & 3);
     }
 }

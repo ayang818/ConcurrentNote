@@ -2,6 +2,7 @@ package TaskExecution;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -20,7 +21,7 @@ public class SingleWebServer {
             Socket socket = serverSocket.accept();
             System.out.println("remote address is" + socket.getRemoteSocketAddress());
             InputStream inputStream = socket.getInputStream();
-            byte[] bytes = inputStream.readAllBytes();
+            byte[] bytes = null;
             String message = new String(bytes, StandardCharsets.UTF_8);
             String receiveMessage = "receive message " + message;
             System.out.println(receiveMessage);
